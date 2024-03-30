@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.submision1.data.response.ResponseFollowersItem
 import com.example.submision1.data.retrofit.ApiClient
-import com.example.submision1.ui.HomeFragment
+import com.example.submision1.ui.detail.HomeFragment
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

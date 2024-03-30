@@ -1,4 +1,4 @@
-package com.example.submision1.ui
+package com.example.submision1.ui.detail
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -10,7 +10,9 @@ import coil.transform.CircleCropTransformation
 import com.example.submision1.data.response.ResponseFollowersItem
 import com.example.submision1.databinding.ItemUserBinding
 
-class FollowersAdapter : ListAdapter<ResponseFollowersItem, FollowersAdapter.MyViewHolder>(DIFF_CALLBACK) {
+class FollowersAdapter : ListAdapter<ResponseFollowersItem, FollowersAdapter.MyViewHolder>(
+    DIFF_CALLBACK
+) {
 
 
 

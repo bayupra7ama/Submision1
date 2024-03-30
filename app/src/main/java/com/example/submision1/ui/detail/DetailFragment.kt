@@ -1,4 +1,4 @@
-package com.example.submision1.ui
+package com.example.submision1.ui.detail
 
 
 import android.os.Bundle

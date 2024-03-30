@@ -1,4 +1,4 @@
-package com.example.submision1.ui
+package com.example.submision1.ui.detail
 
 
 import android.os.Bundle
@@ -12,6 +12,7 @@ class SectionsPageAdapter(activity: AppCompatActivity) : FragmentStateAdapter(ac
         val fragment = HomeFragment()
         fragment.arguments = Bundle().apply {
             putInt(HomeFragment.ARG_SECTION_NUMBER, position + 1)
+
         }
         return fragment
     }

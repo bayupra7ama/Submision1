@@ -1,4 +1,4 @@
-package com.example.submision1.ui
+package com.example.submision1.ui.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -14,12 +14,12 @@ class ReviewAdapter : ListAdapter<ItemsItem, ReviewAdapter.MyViewHolder>(DIFF_CA
 
     private lateinit var onItemClickCallback: OnItemClickCallback
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReviewAdapter.MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val binding = ItemUserBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return MyViewHolder(binding)
     }
 
-    override fun onBindViewHolder(holder: ReviewAdapter.MyViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val review = getItem(position)
         holder.bind(review)
 
